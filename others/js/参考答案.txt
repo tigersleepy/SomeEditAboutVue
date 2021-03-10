@@ -1,0 +1,10 @@
+使用promise
+1. 对象  异步操作 成功 失败
+2. 函数返回的对象 回调函数
+3. 
+传统 Fasync(settings, sucCall, failCall)
+现代 const promise = Fasync(settings)
+     promise.then(sucCall, failCall)
+现代简写  Fasync(settings).then(sucCall, failCall)
+4. 异步函数回调
+5. 传统回调是将回调函数作为参数参入函数中，异步回调是在函数返回的promise对象中绑定回调函数
