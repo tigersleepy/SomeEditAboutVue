@@ -6,3 +6,14 @@
 现代回调函数调用形式（简写形式是怎么样的）
 4.现代函数的回调形式又称（？）
 5.根据现有知识归纳下传统回调和现代回调的不同之处？
+
+------
+promise.resolve() 和 promise.reject()
+------
+1.promise.resolve 返回（？）样的（？数据类型），具体分为（3种情况？）
+2.resolve一个thenable对象返回值是一个Promise实例吗？
+3.声明一个thenable对象,then的函数里面同时包含resolve和reject函数的调用，
+两个执行情况是（a.谁先写谁执行，另一个不执行；b.都执行）
+4.对于thenable对象，resolve函数调用前抛出异常和调用后抛出异常有什么区别？（resolve的调用和throw new error两个语句位于同一块域）
+4.promise.reject返回（？）的（？数据类型）
+5.promise1.then(resolve, reject), resolve处理时抛出异常，会不会被同层的reject处理？
